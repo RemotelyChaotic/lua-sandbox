@@ -73,7 +73,7 @@ math.sin   math.sinh math.sqrt  math.tan  math.tanh
 
 os.clock os.difftime os.time
 
-require
+require print
 
 string.byte string.char  string.find  string.format string.gmatch
 string.gsub string.len   string.lower string.match  string.reverse
