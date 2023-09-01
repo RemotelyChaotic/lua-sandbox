@@ -76,10 +76,10 @@ os.clock os.difftime os.time
 require print
 
 string.byte string.char  string.find  string.format string.gmatch
-string.gsub string.len   string.lower string.match  string.reverse
-string.sub  string.upper
+string.gsub string.len   string.lower string.match  string.rep
+string.reverse string.sub  string.upper
 
-table.insert table.maxn table.remove table.sort
+table.concat table.insert table.maxn table.remove table.sort
 
 ]]):gsub('%S+', function(id)
   local module, method = id:match('([^%.]+)%.([^%.]+)')
